@@ -1,7 +1,6 @@
 def range_extraction(args: list) -> str:
     solution = []
-    start = args[0]
-    end = args[0]
+    start = end = args[0]
     for i in args[1:]:
         if i == end + 1:
             end = i
